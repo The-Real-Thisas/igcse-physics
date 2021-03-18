@@ -1,22 +1,40 @@
-# [Nextra](https://nextra.vercel.app)
-
-_Warning: this project is not production ready, API might change without notice._
-
-[![](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra&c=1)
-
-**Nextra** is a [Next.js](https://nextjs.org) and [MDX](https://mdxjs.com) powered, no-code site generator.
+# [IGCSE Physics](https://igcse-physics.now.sh)
 
 ![](/public/demo.png)
 
-## Development
+## Technology Used
 
-The code of Nextra is under the [`core`](https://github.com/shuding/nextra/tree/core) branch.
+This website makes use of Nextra from Vercel.
 
-## Themes
+[![](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra&c=1)
 
-- [nextra-theme-docs](https://github.com/vercel/swr-site) ([demo](https://swr.vercel.app))
-- [nextra-theme-blog](https://github.com/shuding/site) ([demo](https://shud.in))
+## Contibution / Edits
 
+This website is written in markdown (mdx). The files are stored number the `pages` directory. Any new pages should be according to the unit as the filename and its topic should be added to the meta.json.
+
+Structure:
+```
+Project Dir
+	- Pages
+		- theory
+			- {topic number}.mdx
+			- meta.json
+			- subtopic
+				- {sub topic number}.mdx
+				- meta.json
+		- practical
+			- {topic number}.mdx
+			- meta.json
+			- subtopic
+				- {sub topic number}.mdx
+				- meta.json
+	- index.md	
+```
+
+## Source
+
+- Znotes
+- savemyexams
 ---
 
-Created by [@shuding](https://github.com/shuding) and [@pacocoursey](https://github.com/pacocoursey) at [Vercel](https://vercel.com). Released under the MIT license.
+Created by [@_thisas_](https://github.com/The-Real-Thisas). Released under the MIT license.
