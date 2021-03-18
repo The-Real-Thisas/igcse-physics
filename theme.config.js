@@ -25,7 +25,7 @@ export default {
       />
       <meta name="twitter:site:domain" content="igcse-physics.vercel.app" />
       <meta name="twitter:url" content="https://igcse-physics.vercel.app" />
-      <meta name="og:title" content="IGSE | Physics" />
+      <meta name="og:title" content="IGCSE | Physics" />
       <meta
         name="og:image"
         content="https://igcse-physics.vercel.app/logo.png"
